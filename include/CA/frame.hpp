@@ -24,6 +24,7 @@ namespace ca
     int drawFrame(fs::path targetPath)
     {
         std::array<int, 2> res = getRes();
+        res[0] /= 2;
 
         std::ios::sync_with_stdio(false);
         std::cin.tie(nullptr);
@@ -39,7 +40,7 @@ namespace ca
 
         std::string frame = "";
 
-        sf::Vector2f change = {(double)size.x/((double)res[0]/2), (double)size.y/(double)res[1]};
+        sf::Vector2f change = {(double)size.x/((double)res[0]), (double)size.y/(double)res[1]};
 
         int del = ((double)size.y/change.y);
 
@@ -57,7 +58,7 @@ namespace ca
 
         std::cout << frame << "\033[0m";
 
-        return del*2;
+        return del;
     }
 }
 
