@@ -4,10 +4,9 @@
 #### Check DOCS.md for more information about how to use this library and it's programs.
 
 ## Changelog:
-### Release:
+### Alpha - v.0.1.
+Published first version of CLI-animator.
 
-Released the first version of CLI-Animator. See DOCS.md for more infromation.  
-
-*Date: dd/AUG/26*  
-*Time: hh/mm GMT*
-###### *version: 1.0.0*
+*Date: 17/AUG/26*  
+*Time: 15:xx GMT*
+###### *version: 0.1.*
