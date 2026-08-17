@@ -21,7 +21,6 @@ unsigned int getVideoFrames(fs::path path)
     return count;
 }
 
-//test: ./clianimator.exe "D:\Lukas\Windows Downloads\badapple.mp4" 1
 int main(int argc, char* argv[])
 {
     std::ios::sync_with_stdio(false);
