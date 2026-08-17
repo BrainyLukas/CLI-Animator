@@ -1,5 +1,5 @@
-build/
-bin/
-versions/
-temp/
+build
+bin
+versions
+temp
 *.bat
